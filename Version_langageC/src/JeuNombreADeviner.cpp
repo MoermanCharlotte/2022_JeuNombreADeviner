@@ -44,7 +44,11 @@ int tirerNombreMystere(int nbMin, int nbMax)
 // Paramètres de sortie: nombre d'essais utilisés par le joueur
 // Valeur de retour : 0 si la partie est perdue, 1 sinon
 
-// Ajouter le CODE de  la fonction
+int JouerPartie (int nb, int nbMax, int nbMin, int TryMax, int* Try
+{
+
+}
+
 
 
 

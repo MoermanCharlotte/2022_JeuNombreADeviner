@@ -18,12 +18,16 @@
 int main()
 {
 
+    int nb;
+    int nbMax;
+    int nbMin;
+    int nbTryMax;
+    int nbTry;
+    int nbEndGame;
 
     printf ("%s\n", "Vous allez jouer pour deviner un nombre secret");
 
-
-
-    // Tirer aléatoirement le nombre à deviner
+    nb = tirerNombreMystere(1,10);// Tirer aléatoirement le nombre à deviner
 
 
     // Jouer une partie
@@ -33,6 +37,7 @@ int main()
 
     printf("Vous avez 4 essais pour deviner le nombre myst\x8Are compris entre 0 et 10\n");
 
+    nbEndGame = JouerPartie(nb, 1, 10, 4, &nbTry);
 
     // Affichage du résultat de la partie
 
